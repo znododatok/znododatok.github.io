@@ -1,0 +1,128 @@
+*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: #000000;
+		font-family: Century Gothic;
+		overflow-x: hidden;
+	}
+	main {
+		width: 100vw;
+		margin-right: auto;
+		margin-left: auto;
+		background-image: url('images/bgimage.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		padding-top: 5vh;
+		text-align: center;
+	}
+	.logo {	
+		width: 44vw;
+		height: 35vw;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url('../images/logo_main.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.logo-biology {
+		background-image: url('../images/logo_biology.png');
+	}
+	.logo-chemistry {
+		background-image: url('../images/logo_chemistry.png');
+	}
+	.logo-geography {
+		background-image: url('../images/logo_geography.png');
+	}
+	.logo-history {
+		background-image: url('../images/logo_history.png');
+	}
+	.logo-ukr-language {
+		background-image: url('../images/logo_language.png');
+	}
+	.logo-ukr-literature {
+		background-image: url('../images/logo_literature.png');
+	}
+	.menu {
+		display: flex;
+		margin-top: 2vh;
+		width: 40vw;
+		margin-left: auto;
+		margin-right: auto;
+		align-content: center;
+		align-items: center;
+	}
+	.menu li {
+		list-style: none;
+	}
+	.menu_btn {
+		display: block;
+		width: 20vw;
+		height: 20vw;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.menu_btn:hover {
+		transform: scale(1.1, 1.1);
+		transition: 0.4s;
+	}
+	h1 {
+		margin-top: 2vh;
+		font-family: Verdana;
+		color: #eaeaea;
+	}
+	.policy_text {
+		width: 60vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3vh;
+		font-size: 3vh;
+		color: #eaeaea;
+		text-align: left;
+		line-height: 4.5vh;
+	}
+	footer {
+		display: flex;
+		align-items: center;
+		height: 10vh;
+		width: 100%;
+		margin-bottom: 0;
+		margin-top: 10vh;
+		background-color: #ffad45;
+	}
+	.rights {
+		float: left;
+		margin-left: 3vw;
+	}
+	footer a {
+		margin-left: 10vw;
+		color: darkblue;
+	}
+	.link {
+		display: block;
+		text-decoration: none;
+		font-family: Halvetica;
+		font-size: 3.5vh;
+		color: #ffad45;
+		margin-top: 0.7vh;
+		margin-bottom: 0.7vh;
+	}
+	.link:hover {
+		text-decoration: underline;
+	}
+	.link_block {
+		margin-top: 2.5vh;
+		margin-bottom: 2.5vh;
+		border: 0.1vh solid #ffad45;
+		padding: 1vh;
+	}
+	.policy_text strong {
+		display: block;
+		margin-top: 3.5vh;
+		margin-bottom: 1vh;
+	}
